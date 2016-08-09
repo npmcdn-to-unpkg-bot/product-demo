@@ -32,7 +32,9 @@ There are several test cases, testing the main app use cases.
 
 ### Considerations:
 1. Security - There is no security functionality neither on client nor server side.
-A direct approach might be Spring Security Oauth or Spring Security plus custom session token logic.
+  1.1 Backend - A direct approach might be Spring Security Oauth or Spring Security plus custom session token logic.
+  1.2 Client side security - utilize browser sandbox and local storage ...
+  1.3 Transport protocol - HTTPS
 
 2. This app follows Domain Driven Design paradigms. Logic is decoupled in several layers:
   * REST Facade - Deals with REST and DTOs.
