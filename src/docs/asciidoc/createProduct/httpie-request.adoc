@@ -1,0 +1,20 @@
+[source,bash]
+----
+$ echo '{
+  "id" : null,
+  "name" : "TestName",
+  "description" : "TestDescription",
+  "tags" : [ {
+    "id" : 0,
+    "name" : "NewTag"
+  }, {
+    "id" : 0,
+    "name" : "TestTag"
+  } ],
+  "price" : {
+    "value" : 3.30,
+    "currencyCode" : "USD"
+  },
+  "pricePoints" : [ ]
+}' | http POST 'http://localhost:8080/products/' 'Content-Type:application/json'
+----

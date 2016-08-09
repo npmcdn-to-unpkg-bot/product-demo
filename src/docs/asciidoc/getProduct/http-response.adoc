@@ -1,0 +1,27 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 337
+
+{
+  "id" : 3,
+  "name" : "TestName",
+  "description" : "TestDescription",
+  "tags" : [ {
+    "id" : 5,
+    "name" : "NewTag"
+  }, {
+    "id" : 6,
+    "name" : "TestTag"
+  } ],
+  "price" : {
+    "value" : 3.30,
+    "currencyCode" : "USD"
+  },
+  "pricePoints" : [ {
+    "value" : 2.53,
+    "currencyCode" : "GBP"
+  } ]
+}
+----

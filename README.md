@@ -1,5 +1,5 @@
 # product-demo
-Sample project utilizing Spring Boot and Reac.js
+## Sample project utilizing Spring Boot and Reac.js
 
 This project is a sample demo example. It simulates standard CRUD operations for dealing with a Product.
 A Product has the following attributes:
@@ -10,16 +10,16 @@ A Product has the following attributes:
 - Price - with setting currency option
 - Price points - representing the price in a specific currency (USD/GBP only).
 
-Prerequisites:
-1. Java 1.8
-2. Maven 3.x
+### Prerequisites:<br/>
+1. Java 1.8 <br/>
+2. Maven 3.x <br/>
 
-How to run:
-mvn package && java -jar target/product-demo-0.0.1-SNAPSHOT.jar
-or
-mvn spring-boot:run
+### How to run: <br/>
+mvn package && java -jar target/product-demo-0.0.1-SNAPSHOT.jar <br/>
+or <br/>
+mvn spring-boot:run <br/>
 
-React.js client functionality:
+### React.js client functionality:
 - Crate a new product
 - Get a list of all products
 - Get details about a product
@@ -27,16 +27,16 @@ React.js client functionality:
 
 A complete Asciidoc documentation of the REST API is [here!](src/docs/api-guide.html).
 
-Integration Testing
+### Integration Testing
 There are several test cases, testing the main app use cases.
 
-Considerations:
+### Considerations:
 1. Security - There is no security functionality neither on client nor server side.
 A direct approach might be Spring Security Oauth or Spring Security plus custom session token logic.
 
 2. This app follows Domain Driven Design paradigms. Logic is decoupled in several layers:
-- REST Facade - Deals with REST and DTOs.
-- Domain - Core business logic.
--- Service - Business services.
--- Model - Entities.
--- Repository - Repositories for Entities.
+* REST Facade - Deals with REST and DTOs.
+* Domain - Core business logic.
+  * Service - Business services.
+  * Model - Entities.
+  * Repository - Repositories for Entities.

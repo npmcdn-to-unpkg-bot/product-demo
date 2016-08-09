@@ -1,0 +1,20 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/products/4' -i -X PUT -H 'Content-Type: application/json' -d '{
+  "id" : 4,
+  "name" : "UpdateName",
+  "description" : "UpdateDescription",
+  "tags" : [ {
+    "id" : 0,
+    "name" : "NewTag1"
+  }, {
+    "id" : 0,
+    "name" : "NewTag2"
+  } ],
+  "price" : {
+    "value" : 3.50,
+    "currencyCode" : "GBP"
+  },
+  "pricePoints" : [ ]
+}'
+----

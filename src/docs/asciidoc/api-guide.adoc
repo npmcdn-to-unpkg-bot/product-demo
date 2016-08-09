@@ -4,16 +4,16 @@ Angnel Aytov
 This is the 'product-demo' cURL requests documentation.
 
 *Create product cURL request:*
-include::{snippets}/createProduct/curl-request.adoc[]
+include::createProduct/curl-request.adoc[]
 
 *Get all products cURL request:*
-include::{snippets}/getAllProducts/curl-request.adoc[]
+include::getAllProducts/curl-request.adoc[]
 
 *Get product cURL request:*
-include::{snippets}/getProduct/curl-request.adoc[]
+include::getProduct/curl-request.adoc[]
 
 *Update product cURL request:*
-include::{snippets}/updateProduct/curl-request.adoc[]
+include::updateProduct/curl-request.adoc[]
 
 *Update product price cURL request:*
-include::{snippets}/updateProductPrice/curl-request.adoc[]
+include::updateProductPrice/curl-request.adoc[]
