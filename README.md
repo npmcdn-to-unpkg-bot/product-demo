@@ -42,6 +42,4 @@ There are several test cases, testing the main app use cases.
     * Service - Business services.
     * Model - Entities.
     * Repository - Repositories for Entities. <br/>
-  Every layer should be responsible for the logic related to its layer. 
-  For example Service layer has to deal with the business logic and its logic should be preserved from migrating to
-  Facade layer.
+<p>Every layer should be responsible for the logic related to its layer. For example Service layer has to deal with the business logic and its logic should be preserved from migrating to Facade layer.</p>
