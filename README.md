@@ -25,7 +25,7 @@ mvn spring-boot:run <br/>
 - Get details about a product
 - Update a product
 
-A complete Asciidoc documentation of the REST API is [here](src/docs/asciidoc).
+### A complete Asciidoc documentation of the REST API is [here](src/docs/asciidoc).
 
 ### Integration Testing
 There are several test cases, testing the main app use cases.
