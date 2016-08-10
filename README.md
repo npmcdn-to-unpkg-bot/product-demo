@@ -15,9 +15,10 @@ A Product has the following attributes:
 2. Maven 3.x <br/>
 
 ### How to run: <br/>
-mvn package && java -jar target/product-demo-0.0.1-SNAPSHOT.jar <br/>
+1. mvn package && java -jar target/product-demo-0.0.1-SNAPSHOT.jar <br/>
 or <br/>
 mvn spring-boot:run <br/>
+2. In the browser go to http://localhost:8080.
 
 ### React.js client functionality:
 - Crate a new product
@@ -36,10 +37,9 @@ There are several test cases, testing the main app use cases.
   1.2 Client side security - utilize browser sandbox and local storage ...<br/>
   1.3 Transport protocol - HTTPS<br/>
 
-2. This app follows Domain Driven Design paradigms. Logic is decoupled in several layers:
+2. This app follows Domain Driven Design paradigms. Logic is decoupled into several layers. Every layer should be responsible for the logic related to its layer. For example Service layer has to deal with the business logic and its logic should be preserved from migrating to Facade layer.
   * REST Facade - Deals with REST and DTOs.
   * Domain - Core business logic.
     * Service - Business services.
     * Model - Entities.
     * Repository - Repositories for Entities. <br/>
- 2.1. Every layer should be responsible for the logic related to its layer. For example Service layer has to deal with the business logic and its logic should be preserved from migrating to Facade layer.
