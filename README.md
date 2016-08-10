@@ -18,7 +18,7 @@ A Product has the following attributes:
 1. mvn package && java -jar target/product-demo-0.0.1-SNAPSHOT.jar <br/>
 or <br/>
 mvn spring-boot:run <br/>
-2. In the browser go to http://localhost:8080.
+2. In the browser go to <b>http://localhost:8080</b>
 
 ### React.js client functionality:
 - Crate a new product
@@ -26,7 +26,7 @@ mvn spring-boot:run <br/>
 - Get details about a product
 - Update a product
 
-### A complete Asciidoc documentation of the REST API is [here](src/docs/asciidoc).
+### A complete Asciidoc documentation of the REST API is [here](src/docs/asciidoc)
 
 ### Integration Testing
 There are several test cases, testing the main app use cases.
